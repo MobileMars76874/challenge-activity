@@ -32,7 +32,7 @@ square(Nose_x, Nose_y, Wrist_d);
 }
 else if(check =="triangle"){
 canvas.clear();
-triangle(150, 150, eye_d);
+triangle(100, 100, 175, 175, 25, 25, eye_d);
 }
 }
 
