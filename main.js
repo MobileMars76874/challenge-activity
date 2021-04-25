@@ -15,7 +15,7 @@ function setup(){
 canvas = createCanvas(400, 400);
 canvas.position(560, 150);
 Video = createCapture(VIDEO);
-Video.hide();
+
 
 poseNet = ml5.poseNet(Video, model_loaded);
 poseNet.on("pose", gopose);
