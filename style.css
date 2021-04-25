@@ -1,0 +1,11 @@
+.heading{
+box-shadow: 5px 5px 18px blue;
+}
+
+canvas{
+border-style: ridge;
+box-shadow: 5px 5px 18px cyan;
+border-color: black;
+border-width: 1px;
+background-color: rgb(15, 105, 133);
+}
