@@ -43,16 +43,16 @@ console.log(results);
 
 
 
-left_wrist_x = results[0].pose.leftwrist.x;
-right_wrist_x = results[0].pose.rightwrist.x;
+left_wrist_x = results[0].pose.leftWrist.x;
+right_wrist_x = results[0].pose.rightWrist.x;
 
 Wrist_d = floor(left_wrist_x - right_wrist_x);
 
 Nose_x = results[0].pose.nose.x;
 Nose_y = results[0].pose.nose.y;
 
-left_eye_x = results[0].pose.lefteye.x;
-right_eye_x = results[0].pose.righteye.x;
+left_eye_x = results[0].pose.leftEye.x;
+right_eye_x = results[0].pose.rightEye.x;
 
 eye_d = floor(left_eye_x - right_eye_x);
 }
