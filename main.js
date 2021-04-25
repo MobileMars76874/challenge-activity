@@ -26,11 +26,11 @@ console.log("Model Loaded!");
 }
 
 function draw(){
-if(check = "square"){
+if(check == "square"){
 canvas.clear();
 square(Nose_x, Nose_y, Wrist_d);
 }
-else if(check = "triangle"){
+else if(check =="triangle"){
 canvas.clear();
 triangle(150, 150, eye_d);
 }
